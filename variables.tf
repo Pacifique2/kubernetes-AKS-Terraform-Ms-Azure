@@ -14,9 +14,7 @@ variable "rbac_server_app_secret" {}
 variable "rbac_client_app_id" {}
 
 
-variable "vault_uri" {	  
-  default = "https://pacy-aks-key-vault.vault.azure.net/"
-}
+variable "vault_uri" {}
 
 variable "agent_count" {
     default = 2

@@ -55,8 +55,8 @@ Having used RBAC and Azure key vault service to securely deploy the cluster and 
 To do that, weneed to connect to the cluster. An administrator Kubernetes configuration file can be obtained by using the Azure CLI:\
 **az aks get credentials -n CLUSTER-NAME -g RESOURCE-GROUP-NAME --admin**
 
-The repository contains a simple ClusterRoleBinding object definition file that will make sure that the Azure Active Directory user johndoe@jcorioland.onmicrosoft.com get the role that will be assigned to him.
-Let’s create the Role which will define access to certain resources while assigning the role to a user. We created a bash script that does applies a role to a user by using a RoleBinding.
+The repository contains a simple ClusterRoleBinding object definition file that will make sure that the Azure Active Directory user patrick@ntakipacy.onmicrosoft.com get the role that will be assigned to him.
+Let’s create the Role which will define access to certain resources while assigning the role to a user. We created a bash script that applies a role to a user by using a RoleBinding.
 
 We can update this first cluster role binding and apply it using a bash script as show in the link below:\
 

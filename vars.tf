@@ -20,6 +20,12 @@ variable "aks_worker_nodes_count" {
   default = 2
 }
 variable "aks_username" {}
+variable "ingress_dns_name" {}
+
+
+  
+
+
 
 
 

@@ -1,4 +1,7 @@
 variable "ingress_controller_id" {}
+variable "dspl_helm_id" {}
+variable "dspl_aks_id" {}
+
 
 
 

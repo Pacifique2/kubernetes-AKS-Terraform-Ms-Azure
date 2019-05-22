@@ -1,7 +1,7 @@
 # kubernetes-AKS-Terraform-Ms-Azure with enabled RBAC with Azure Active Directory
 Tested terraform implementation of the kubernetes solution that is managed by Microsoft Azure public cloud.
 
-This peoject will start by creating Azure service principal then Azure AD client and server apps. Then we’ll create an AKS cluster configured with AAD. And we’ll finish by creating the Role and RoleBinding kubernetes manifest files.
+This project will start by creating Azure service principal then Azure AD client and server apps. Then we’ll create an AKS cluster configured with AAD. And we’ll finish by creating the Role and RoleBinding kubernetes manifest files.
 
 # Make sure that you have created a service principal before testing this solution
 see the link below for more information:\
@@ -20,7 +20,7 @@ this example below shows how a storage container can be created within azure by 
 To do so, you should follow all the necessary steps as described in the link below:
 **https://docs.microsoft.com/fr-fr/azure/aks/azure-ad-integration**
 
-# Use Azure Key Vault and terraform key vault to securely carry out the resources provionning with terraform
+# Use Azure Key Vault and terraform key vault to securely carry out the resources provisioning with terraform
 Create two scripts as follow:
 
 # Create the Kubernetes cluster

@@ -74,6 +74,10 @@ az aks get credentials -n CLUSTER_NAME -g RESOURCE_GROUP_NAME
 When you are going to use kubectl you are going to be asked to use the Azure Device Login authentication first:
 
 **kubectl get nodes**
+#Monitoring on AKS
+##Using helm charts to set up both Grafana and Prometheus on Azure kubernetes cluster, for containerized workloads monitoring.
+The implementation can be found below;
+https://github.com/Pacifique2/kubernetes-AKS-Terraform-Ms-Azure/tree/aks-grafana-on-ingress/monitoring
 
 
 
